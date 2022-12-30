@@ -135,3 +135,18 @@
 .plan a:hover {
   background-color: var(--color-secondary-600);
 }
+
+@media (min-width: 200px) and (max-width: 550px) {
+  #pricing-plans {
+    width: 100%;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .plan li {
+    width: 100%;
+  }
+}
