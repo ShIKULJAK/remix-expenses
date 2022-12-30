@@ -281,15 +281,15 @@ button {
     padding: 0.5rem 5%;
     display: flex;
     /* grid-template-columns: 35% 35% 35%; */
-    justify-content: center;
+    justify-content: space-around;
     justify-items: center;
     align-items: center;
   }
 
   #main-header ul {
     gap: 0.5rem;
-    flex: 0 0 50%;
-    padding-right: 10px;
+    /* flex: 0 0 50%; */
+    /* padding-right: 10px; */
   }
   #main-header ul li {
     font-size: 0.8rem;
