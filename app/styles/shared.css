@@ -276,4 +276,50 @@ button {
     transform: translateY(0);
   }
 }
+@media (min-width: 200px) and (max-width: 550px) {
+  #main-header {
+    padding: 0.5rem 5%;
+    display: flex;
+    /* grid-template-columns: 35% 35% 35%; */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #main-header ul {
+    gap: 0.5rem;
+    flex: 0 0 50%;
+    padding-right: 10px;
+  }
+  #main-header ul li {
+    font-size: 0.8rem;
+  }
+
+  #logo {
+    padding-right: 10px;
+    font-size: 1rem;
+    align-self: start;
+  }
+
+  .cta {
+    padding: 0.2rem 1rem;
+
+    border-radius: 20px;
+    font-size: 0.8rem;
+
+    display: inline-flex;
+  }
+
+  #cta-nav {
+    justify-self: end;
+  }
+
+  #cta-nav ul {
+    gap: 0;
+  }
+
+  #container {
+    padding: 15px;
+  }
+}
 
