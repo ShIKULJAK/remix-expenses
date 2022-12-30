@@ -31,7 +31,7 @@ function Document({ title, children }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body id="container">
         {children}
         <ScrollRestoration />
         {!disableJS && <Scripts />}
