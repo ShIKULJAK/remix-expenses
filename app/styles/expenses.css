@@ -147,3 +147,23 @@
   color: var(--color-primary-10);
   font-size: 2rem;
 }
+
+@media (min-width: 200px) and (max-width: 550px) {
+  .chart {
+    font-size: 0.9rem;
+    gap: 0.4rem;
+    padding: 0.5rem;
+  }
+
+
+#expense-statistics {
+  text-align: center;
+  margin-top: 10%;
+ 
+}
+
+#expense-statistics dd {
+  margin: 0;
+  color: var(--color-primary-10);
+  font-size: 2rem;
+}
